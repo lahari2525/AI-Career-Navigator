@@ -1,0 +1,6 @@
+{
+ "AI Engineer": ["python", "math", "machine learning"],
+ "Cloud Engineer": ["networking", "linux", "cloud"],
+ "Software Developer": ["programming", "algorithms"],
+ "Data Scientist": ["statistics", "python", "data analysis"]
+}

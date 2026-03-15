@@ -1,0 +1,32 @@
+<html>
+
+<head>
+<title>AI Career Navigator</title>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<h2>AI Career Navigator</h2>
+
+<form method="POST">
+
+<p>Enter your skills (comma separated)</p>
+
+<input name="skills">
+
+<br>
+
+<button type="submit">Find Career</button>
+
+</form>
+
+{% if result %}
+<h3>Recommended Career: {{ result }}</h3>
+{% endif %}
+
+</body>
+
+</html>
