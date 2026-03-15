@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AI Career Navigator
 
 AI Career Navigator is a simple artificial intelligence system that recommends a technology career path based on a user's skills.
@@ -61,3 +62,7 @@ python app.py
 ## Author
 
 Lahari Reddy
+=======
+# AI-Career-Navigator
+AI-powered career recommendation system using Python and Flask
+>>>>>>> 1dd69ca10363ca54c70bff998831da63a5b6e697
