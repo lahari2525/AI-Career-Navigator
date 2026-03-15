@@ -30,18 +30,31 @@ This project analyzes the skills entered by the user and recommends the most sui
 - CSS
 - JSON
 
-## Project Structure
-ai-career-navigator
+## 📂 Project Structure
+
+
+AI-Career-Navigator/
 │
 ├── app.py
+│   └── Main Flask application
+│
 ├── reasoning_engine.py
+│   └── AI rule-based recommendation engine
+│
 ├── career_data.json
-├── templates
-│   └── index.html
-├── static
-│   └── style.css
-├── README.md
-└── requirements.txt
+│   └── Knowledge base containing career rules
+│
+├── templates/
+│   └── index.html (UI page)
+│
+├── static/
+│   └── style.css (UI styling)
+│
+├── requirements.txt
+│   └── Python dependencies
+│
+└── README.md
+
 ## How to Run
 
 Install dependencies:
